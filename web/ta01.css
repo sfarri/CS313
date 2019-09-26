@@ -1,0 +1,21 @@
+.changable {
+    font-size: 12px;
+}
+
+.notChangable {
+
+}
+
+.silver {
+    font-size: 10px;
+    background-color: silver;
+}
+
+.bronze {
+    font-size: 8px;
+    background-color: rosybrown;
+}
+
+.make-bold:hover {
+    font-weight: bold;
+}

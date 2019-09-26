@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Team Activity 01</title>
+        <link rel="stylesheet" type="text/css" href="ta02.css">
+        <script src="ta02.js"></script>
+        <script>
+        $(document).ready(function() {
+                $("button").mouseover(function() {
+                  var p = $("p#44.test").css("background-color", "yellow");
+                  p.hide(1500).show(1500);
+                  p.queue(function() {
+                    p.css("background-color", "red");
+                  });
+                });
+              });
+              </script>
+    </head>
+    <body>
+        <div class="changable make-bold"></div>
+        <div class="notChangable silver make-bold"></div>
+        <div class="notChangable bronze make-bold"></div>
+        <button id="click" onclick="clicked();">Click Me!</button>
+        <label for="boxcolor">Pick a Color:</label> 
+        <input type="text" id="boxcolor" placeholder="#B4D455">   
+		<button onclick="changeColor();">Change color</button>
+    </body>
+</html>
