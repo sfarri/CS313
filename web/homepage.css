@@ -1,0 +1,30 @@
+body {
+    background-color: slategray;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    color: whitesmoke;
+}
+
+li {
+    color: white;
+}
+
+#details {
+    border-radius: 25%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1em;
+    
+}
+
+#assignments {
+    border-radius: 25%;
+    border-color: royalblue;
+    border-style: solid;
+    border-width: 1em;
+}
