@@ -18,6 +18,11 @@ li {
     color: white;
 }
 
+img {
+    max-width: 250px;
+    max-height: 200px;
+}
+
 #details {
     border-radius: 25%;
     border-color: #222222;
