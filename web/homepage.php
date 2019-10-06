@@ -15,6 +15,6 @@ function randomPhrase() {
     <title></title>
 </head>
 <body>
-    <h1>Wisdom: <?php echo randomPhrase(); ?></h1>
+    <h1>Wisdom: <?php randomPhrase(); ?></h1>
 </body>
 </html>
