@@ -6,7 +6,7 @@ function randomPhrase() {
     $phrase = $phrases[$number];
     return $phrase;
 }
-    $ran = randomPhrase();
+    return $ran = randomPhrase();
 ?>
 
 <!DOCTYPE html>
@@ -15,6 +15,6 @@ function randomPhrase() {
     <title></title>
 </head>
 <body>
-    <h1>Wisdom: <?php echo $username; ?></h1>
+    <h1>Wisdom: <?php echo randomPhrase(); ?></h1>
 </body>
 </html>
